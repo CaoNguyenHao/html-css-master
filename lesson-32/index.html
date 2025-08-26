@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Validation</title>
+</head>
+
+<body>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name" required minlength="3"><br><br>
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+        <label>Phone:</label>
+        <input type="tel" name="phone" pattern="^[0-9]{10}$" title="Enter 10 digits" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

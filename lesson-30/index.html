@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Textarea, Select Options</title>
+</head>
+
+<body>
+    <!-- Textarea dùng để nhập nội dung dài như một đoạn văn bản...vv
+    Select dùng để chọn một (hoặc nhiều) giá trị từ danh sách cho trước. -->
+    <form>
+        <label>Your feedback</label>
+        <textarea name="feedback" rows="5" cols="40" placeholder="Enter your feedback here..."></textarea>
+        <br><br>
+        <select name="satisfaction" multiple>
+            <option value="very_satisfied">Very satisfied</option>
+            <option value="satisfied">Satisfied</option>
+            <option value="neutral">Neutral</option>
+            <option value="unsatisfied">Unsatisfied</option>
+        </select>
+        <button type="submit">Send feedback</button>
+    </form>
+</body>
+
+</html>

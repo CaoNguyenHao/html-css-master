@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Khai báo bộ mã hóa ký tự chuẩn cho trang web -->
+    <meta charset="UTF-8">
+    <!-- Viewport giúp trang web hiển thị tốt trên nhiều thiết bị nhỏ hơn -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Head và Meta</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
